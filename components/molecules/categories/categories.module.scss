@@ -1,0 +1,21 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.m_categories__container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  min-width: 300px;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @include from($small) {
+    justify-content: flex-start;
+    min-width: 200px;
+    gap: 10px;
+  }
+}

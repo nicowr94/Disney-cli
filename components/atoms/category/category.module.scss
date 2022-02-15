@@ -1,0 +1,48 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.a_card_category__container {
+  max-width: 255px;
+  min-width: 100px;
+  max-height: 150px;
+  padding: 0 20px;
+  position: relative;
+  border: solid 5px #3e4048;
+  border-radius: 10px;
+  background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42));
+
+  img {
+    z-index: 2;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  video {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+
+  &:hover {
+    border: solid 5px white;
+    cursor: pointer;
+    video {
+      display: initial;
+    }
+    @include from($small) {
+      border: solid 3px white;
+    }
+  }
+
+  @include from($small) {
+    padding: 0;
+    border: solid 3px #3e4048;
+  }
+}

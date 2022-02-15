@@ -1,0 +1,71 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.m_navigation {
+  height: 72px;
+  width: 100%;
+  color: white;
+  padding: 0px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include from($xx-large) {
+    padding: 0px 10px;
+  }
+
+  &__options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0;
+    &__item {
+      display: flex;
+      gap: 10px;
+      padding: 2px 0px;
+      fill: white;
+      img {
+        filter: invert(1);
+      }
+
+      @include from($medium) {
+        p {
+          display: none;
+        }
+      }
+    }
+
+    &__item2 {
+      display: flex;
+      gap: 15px;
+      padding: 2px 0px;
+      fill: white;
+      img {
+        filter: invert(1);
+      }
+
+      @include from($xx-large) {
+        display: none;
+      }
+    }
+
+    @include from($large) {
+      gap: 15px;
+    }
+
+    @include from($small) {
+      gap: 15px;
+      padding: 0;
+    }
+  }
+  &__user {
+    display: flex;
+    gap: 10px;
+
+    @include from($small) {
+      p {
+        display: none;
+      }
+    }
+  }
+}
