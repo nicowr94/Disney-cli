@@ -1,9 +1,18 @@
 # Frontend - Disney
-Aplicativo desarrollado con Next.js,React.js, Sass, Typescript
+Aplicativo que permite el registro y logeo de los usuarios con JWT
+
+### Se utilizó
+- Next.js
+- React
+- Sass
+- Typescript
+- BEM
+- Atomic design
+
+
+
 
 ![image](https://user-images.githubusercontent.com/35709873/154653691-399252ef-cfc9-4b8f-83b0-fe6e92bcf6c8.png)
-### Responsive y autenticación con Jwt
-
 ![image](https://user-images.githubusercontent.com/35709873/154653766-c2be5481-e229-437c-8658-92d84c3cd63f.png)
 ![image](https://user-images.githubusercontent.com/35709873/154655357-fa471fca-2d7f-4b9a-8458-7880871560a4.png)
 
@@ -24,5 +33,5 @@ Para visualizar el app se necesita estar logeado y en caso tener un rol de admin
 ### Logs
 El aplicativo permite estar logeado en 1 solo dispositivo, si se registra en otro dispositivo se cierra la sesión en el primer dispositivo.
 
-### Dispositivo
+### Tipo de dispositivo
 El aplicativo detecta si el usuario ingresa con un movil o PC, esto se realiza al momento de logearse. Esto se desarrolló con un custom hooks que detecta el ancho de la pantalla, si es menor a 500px se asignará al dispositivo como movil.
