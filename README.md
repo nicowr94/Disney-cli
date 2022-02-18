@@ -17,7 +17,7 @@ Aplicativo que permite el registro y logeo de los usuarios con JWT
 ![image](https://user-images.githubusercontent.com/35709873/154655357-fa471fca-2d7f-4b9a-8458-7880871560a4.png)
 
 
-## Paginas 
+## Páginas 
 
 ### Home
 
