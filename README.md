@@ -24,4 +24,4 @@ Para visualizar el app se necesita estar logeado y en caso tener un rol de admin
 El aplicativo permite estar logeado en 1 solo dispositivo, si se registra en otro dispositivo se cierra la sesión en el primer dispositivo.
 
 ### Dispositivo
-El aplicativo detecta si el usuario ingresa con un movil o PC, esto se realiza al momento de logearse. Esto se desarrolló con un hook que detecta el ancho de la pantalla, si es menor a 500px se asignará al dispositivo como movil.
+El aplicativo detecta si el usuario ingresa con un movil o PC, esto se realiza al momento de logearse. Esto se desarrolló con un custom hooks que detecta el ancho de la pantalla, si es menor a 500px se asignará al dispositivo como movil.
