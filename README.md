@@ -31,7 +31,8 @@ Para visualizar el app se necesita estar logeado y en caso tener un rol de admin
 ## Funcionalidades
 
 ### Logs
-El aplicativo permite estar logeado en 1 solo dispositivo, si se registra en otro dispositivo se cierra la sesión en el primer dispositivo.
+El aplicativo permite estar logeado en 1 solo dispositivo, si se registra en otro dispositivo se cierra la sesión en el primer dispositivo. Al recargar una página
+con una sesión desactivada pedirá al usuario volver a logearse si desea volver a usar este dispositivo. 
 
 ### Tipo de dispositivo
 El aplicativo detecta si el usuario ingresa con un movil o PC, esto se realiza al momento de logearse. Esto se desarrolló con un custom hooks que detecta el ancho de la pantalla, si es menor a 500px se asignará al dispositivo como movil.
