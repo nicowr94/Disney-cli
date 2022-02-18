@@ -8,6 +8,7 @@
 
   &__form {
     width: 400px;
+    margin: 0px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -39,5 +40,22 @@
         }
       }
     }
+
+    @include from($small) {
+      width: 300px;
+    }
   }
+}
+
+.msg_error_visible {
+  color: red;
+  background-color: transparent;
+  padding: 0;
+  font-size: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.msg_error_nv {
+  display: none;
 }

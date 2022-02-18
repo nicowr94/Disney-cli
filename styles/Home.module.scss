@@ -1,5 +1,6 @@
 .container {
   // padding: 0 2rem;
+  min-height: 100vh;
 }
 
 .main {
@@ -115,4 +116,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.home__users {
+  color: white;
+  text-align: start;
+  width: 100%;
+  text-decoration: underline;
+  cursor: pointer;
 }
