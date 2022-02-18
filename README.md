@@ -5,6 +5,7 @@ Aplicativo desarrollado con Next.js,React.js, Sass, Typescript
 ### Responsive y autenticación con Jwt
 
 ![image](https://user-images.githubusercontent.com/35709873/154653766-c2be5481-e229-437c-8658-92d84c3cd63f.png)
+![image](https://user-images.githubusercontent.com/35709873/154655357-fa471fca-2d7f-4b9a-8458-7880871560a4.png)
 
 
 ## Paginas 
